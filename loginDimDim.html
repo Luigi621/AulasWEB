@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Login Dim-Dim</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:center;
+        }
+        form{
+            display:inline-block;
+            text-align: left;
+            border: 1px solid;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>Login</h2>
+    <form action="/" method="post">
+        <div>
+            <label>Usuário</label>
+            <input type="text" id="usuario" required>
+        </div>
+        <div>
+            <label>Senha </label>
+            <input type="password" id="senha" name="password" required>
+        </div>
+        <div>
+            <a href="/esquecisenha.html">Esqueci minha senha</a>
+        </div>
+        <div>
+            <button type="submit" id="Entrar">Entrar </button>
+        </div>
+    </form>
+
+
+</body>
+
+
+
+</html>
